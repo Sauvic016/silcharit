@@ -80,8 +80,8 @@ if(!isset($_SESSION['user_email'])){
 				</form>
 			</div>
 			<div id='profile-img'>
-				<img src='users/$user_image' alt='Profile' class='img-circle' width='180px' height='185px'>
-				<form action='profile.php?u_id='$user_id' method='post' enctype='multipart/form-data'>
+				<img src='users/$user_image' alt='Profile' class='img-circle' width='180px' height='180px'>
+				<form action='profile.php?u_id='$user_id' method='post' enctype='multipart/form-data'><br>
 
 				<label id='update_profile'> Select Profile
 				<input type='file' name='u_image' size='60' />
